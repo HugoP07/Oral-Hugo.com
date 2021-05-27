@@ -1,0 +1,78 @@
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+header   {
+  background: #111;
+  color: #FFF;
+  padding: 20px 30px;
+}
+nav     {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  margin: 2;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  background: #111;
+}
+footer   {
+  background: #111;
+  color: #999;
+  padding: 20px;
+  text-align: center;
+}
+.gtitre           {
+  min-height: 748px;
+  text-align: center;
+  background-image: url('../img/prés.jpg');
+  background-size: cover;
+  color: #FFF;
+  padding-top: 110px;
+  font-size: 50px;
+  font-family: Trattatello;
+}
+.merci           {
+  min-height: 1500px;
+  text-align: center;
+  background-size: cover;
+  background-image: url('../img/fin.jpg');
+  color: #AAA;
+  padding-top: 200px;
+  font-size: 60px;
+  text-decoration: underline;
+  font-weight: bold;
+  line-height : 10;
+  font-family: Trattatello;
+}
+.italique {
+font-style: italic;
+}
+.fin {
+	width:100px; 
+	height : 100 px;
+	position: absolute;
+	right: 20px;
+	top: 220px; 
+}
+.fin2 {
+	width:100px; 
+	height : 100 px;
+	position: absolute;
+	left: 20px;
+	top: 220px; 
+}
+.zero{ 
+ text-decoration:none;
+ color:white;
+}

@@ -1,0 +1,89 @@
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+header   {
+  background: #111;
+  color: #FFF;
+  padding: 20px 30px;
+}
+nav     {
+  width: 80%;
+  display: inline-block;
+  text-align: right;
+  margin: 2;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  background: #111;
+}
+footer   {
+  background: #111;
+  color: #999;
+  padding: 20px;
+  text-align: center;
+}
+.bleu {
+color:blue;
+}
+.rouge {
+color:red;
+}
+.vert {
+color:green;
+}
+.souligner {
+text-decoration: underline;
+}
+.gras {
+font-weight: bold;
+}
+.italique {
+font-style: italic;
+}
+.zero{ 
+ text-decoration:none;
+ color:white;
+}
+.ind{
+	text-indent: 20px;
+}
+.critere{
+	text-indent: 20px;
+	background-color : lightgray ;
+	border: 1px solid black;
+	font-size: 20px;
+	font-family: Helvetica;
+	padding: 50px;
+}
+.jury {
+	width:100px; 
+	height : 100 px;
+  position: absolute;
+  right: 20px;
+  top: 225px; 
+}
+.cib {
+	width:100px; 
+	height : 100 px;
+  position: absolute;
+  right: 20px;
+  top: 360px;
+}
+.bal {
+	width:100px; 
+	height : 100 px;
+  position: absolute;
+  right: 20px;
+  top: 480px; 
+}
